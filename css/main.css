@@ -1,0 +1,37 @@
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  background-color: #ffffff;
+  width: 90%;
+}
+
+.date-form {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  color: #716f6f;
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.25em;
+}
+
+.input::placeholder {
+  color: #15151580;
+}
