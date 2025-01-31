@@ -23,7 +23,7 @@
           <div class="input-wrapper">
             <label class="input-label" for="day-input"> DAY</label>
             <input class="input" type="text" id="day-input" placeholder="DD" />
-            <p class="error-message"></p>
+            <p class="error-message day-error-message"></p>
           </div>
           <div class="input-wrapper">
             <label class="input-label" for="month-input"> MONTH</label>
@@ -33,7 +33,7 @@
               id="month-input"
               placeholder="MM"
             />
-            <p class="error-message"></p>
+            <p class="error-message month-error-message"></p>
           </div>
           <div class="input-wrapper">
             <label class="input-label" for="year-input"> YEAR</label>
@@ -43,7 +43,7 @@
               id="year-input"
               placeholder="YYYY"
             />
-            <p class="error-message"></p>
+            <p class="error-message year-error-message"></p>
           </div>
         </div>
 
@@ -74,10 +74,11 @@
       </form>
 
       <p class="complete-age">
-        <span class="output" id="output-years">--</span> years <br />
-        <span class="output" id="output-months">--</span> months <br />
-        <span class="output" id="output-days">--</span> days <br />
+        <span class="output" id="year-output">--</span> years <br />
+        <span class="output" id="month-output">--</span> months <br />
+        <span class="output" id="day-output">--</span> days <br />
       </p>
     </main>
+    <script src="./script.js"></script>
   </body>
 </html>

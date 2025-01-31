@@ -45,7 +45,7 @@ main {
   letter-spacing: 0.25em;
 }
 
-.input-label .error {
+.input-label.error {
   color: #ff5959;
 }
 
@@ -65,10 +65,6 @@ main {
   font-weight: 700;
 }
 
-.input .error {
-  border-color: #ff5959;
-}
-
 .input::placeholder {
   color: #15151580;
 }
@@ -76,6 +72,11 @@ main {
 .input:focus {
   border-color: #854dff;
   outline: none;
+}
+
+.input.error {
+  border-color: #ff5959;
+  caret-color: #ff5959;
 }
 
 .error-message {
